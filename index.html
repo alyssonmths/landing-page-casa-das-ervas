@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa das ervas</title>
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand">
+            <a href="index.html" class="navbar-brand"><img src="imagens/logos/logo.png" height="150px" style="border-radius: 25px;"></a>
+            <div class="navbar-nav ms-auto">
+                <a href="https://www.instagram.com/casadaservas_loja/" target="_blank" class="nav-link"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="https://api.whatsapp.com/send/?phone=5581994283931&text&type=phone_number&app_absent=0" target="_blank" class="nav-link"><i class="bi bi-whatsapp"></i> Fale conosco</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="primeira-secao" class="d-flex justify-content-center align-items-center">
+            <span class="ms-sm-5 p-3 glass" style="width: 300px; text-align: center;">
+                <h1><i class="bi bi-quote"></i>Tudo o que há de melhor em produtos naturais</h1>
+            </span>
+        </section>
+
+        <section id="marcas" class="row justify-content-around">
+            <div class="col"><img src="imagens/logos/unilife.png"></div>
+            <div class="col"><img src="imagens/logos/fitoplant.png"></div>
+            <div class="col"><img src="imagens/logos/holysoup-removebg-preview.png" class="img-fluid"></div>
+            <div class="col"><img src="imagens/logos/image.png"></div>
+            <div class="col"><img src="imagens/logos/naturalis.png"></div>
+        </section>
+
+        <section id="novidade" class="row justify-content-center align-items-center p-5">
+            <div style="max-width: 800px; overflow: hidden;" class="col-lg d-flex justify-content-center align-items-center">
+                <img src="imagens/design_maca_peruana-removebg-preview.png" width="100%" style="transform: scale(1.9); border: 1px solid red;">
+            </div>
+            <div class="col-lg-3 m-5 text-center">
+                <h1 class="bg-dark text-light p-2">Novidade</h1>
+                <h1>Maca Peruana Premium em cápsulas 550 mg | Unilife</h1>
+                <p class="fs-5">A Maca Peruana Premium em cápsulas Unilife Vitamins é um suplemento VEGANO, desenvolvido a partir da composição única da matéria prima maca premium em pó. Livre de glúten.</p>
+                <a href="https://api.whatsapp.com/send/?phone=5581994283931&text&type=phone_number&app_absent=0" target="_blank" class="btn text-light" style="background-color: #A1A692; width: 100%;">Compre já</a>
+            </div>
+        </section>
+
+        <section class="d-flex flex-column align-items-center" id="sopas">
+            <div>
+                <h1>Escolha a sua sopa</h1>
+            </div>
+            <p class="fs-4 text-center">
+                Com as sopas da Holy Soup você tem seu jantar preparado dentro de poucos minutos.
+            </p>
+            
+            <!-- Carrossel -->
+
+            <div class="container swiper" id="slider">
+                <div class="slider-wrapper">
+                    <div class="card-list swiper-wrapper">
+                        <div class="card-item swiper-slide">
+                            <img src="imagens/sopas/sopa1.png">
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="imagens/sopas/sopa2.png">
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="imagens/sopas/sopa3.png">
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="imagens/sopas/sopa4.png">
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="imagens/sopas/sopa5.png">
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="imagens/sopas/sopa6.png">
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="imagens/sopas/sopa7.png">
+                        </div>
+
+                        <div class="card-item swiper-slide">
+                            <img src="imagens/sopas/sopa8.png">
+                        </div>
+                    </div>
+                </div>
+                <!-- Paginação -->
+                <div class="swiper-pagination"></div>
+                <!-- Botões de navegação -->
+                <div class="text-light swiper-button-prev"></div>
+                <div class="text-light swiper-button-next"></div>
+            </div>
+        </section>
+
+        <section id="produtos" class="row justify-content-center">
+            <div class="text-dark">
+                <h1>Conheça os nossos produtos</h1>
+            </div>
+            <div class="col-md-6 col-lg-5 my-1 my-md-0 m-lg-2" style="background: url(imagens/produtos/grao.jpg) center; background-size: cover;">
+                <h1>Grãos</h1>
+            </div>
+            <div class="col-md-6 col-lg-5 my-1 my-md-0 m-lg-2" style="background: url(imagens/produtos/tempero.jpg) center; background-size: cover;">
+                <h1>Temperos</h1>
+            </div>
+            <div class="col-md-6 col-lg-5 my-1 my-md-0 m-lg-2" style="background: url(imagens/produtos/oleo_essencial.jpg) center; background-size: cover;">
+                <h1>Óleos essenciais</h1>
+            </div>
+            <div class="col-md-6 col-lg-5 my-1 my-md-0 m-lg-2" style="background: url(imagens/produtos/sopa.jpg) center; background-size: cover;">
+                <h1>Sopas</h1>
+            </div>
+            <div class="col-md-6 col-lg-5 my-1 my-md-0 m-lg-2" style="background: url(imagens/produtos/encapsulados.jpg) center; background-size: cover;">
+                <h1>Encapsulados</h1>
+            </div>
+            <div class="col-md-6 col-lg-5 my-1 my-md-0 m-lg-2" style="background: url(imagens/imagens/2148377383.jpg) center; background-size: cover;">
+                <h1>E muito mais <i class="bi bi-plus-lg"></i></h1>
+            </div>
+        </section>
+
+        <section id="mapa" class="d-flex flex-column align-items-center p-5">
+            <div style="width: 90vw; height: 30vh;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5589.7933656791865!2d-35.754443200943456!3d-7.834113099937723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7abdddb51375077%3A0x3b96506447d52b4a!2sCasa%20das%20Ervas%20%26%20Temperos%20Naturais!5e0!3m2!1spt-BR!2sbr!4v1721253077382!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="mt-5">
+                <h1>Nossa localização</h1>
+                <p>
+                    Av. Paulo Afonso, 48 - Bela Vista, Surubim - PE, 55750-000
+                </p>
+            </div>
+        </section>
+
+        <section id="whatsapp" class="d-flex justify-content-center align-items-center">
+            <div class="glass p-3">
+                <h1>
+                    Fale conosco pelo 
+                    <a href="https://api.whatsapp.com/send/?phone=5581994283931&text&type=phone_number&app_absent=0" class="bi bi-whatsapp btn btn-light" style="text-decoration: none; color: green;"> WhatsApp</a>
+                </h1>
+            </div>
+        </section>
+    </main>
+
+    <!-- Script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Script swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
